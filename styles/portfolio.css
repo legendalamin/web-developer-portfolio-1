@@ -7,6 +7,21 @@
     color: #fd6e0a;
 
 }
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font
+}
+
+
+.section-description {
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+
 .btn-primary{
     border-radius: 5px;
     background-color: #fd6e0a;
@@ -45,18 +60,22 @@ nav a{
 /* header related style */
 .header{
     background-color: #fff8f3;
+    
 }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .banner-content{
  max-width: 600px;
+
 }
 .banner .profile-pic{
     width: 500px;
+    
 }
 .banner-geeting{
     font-size: 45px;
@@ -68,4 +87,10 @@ nav a{
     font-size: 80px;
        
 }
-/* main section style/*
+/* /* main section style/* */
+.about{
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0;
+}
