@@ -74,7 +74,7 @@ nav a{
 
 }
 .banner .profile-pic{
-    width: 500px;
+    width: 1000px;
     
 }
 .banner-geeting{
@@ -107,6 +107,30 @@ main{
 
     text-align: center;
 }
+/* skill related style */
 #what-do-i{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+.skill img{
+    width: 30px;
+}
+.skill{
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 0px rgb(170, 170, 170);
+}
+.skill-descrition{
+    color: #838383;
+}
+/* resume colam section */
+.resume-colam-titel{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
