@@ -12,7 +12,7 @@
     color: #181818;
     text-align: center;
     font-size: 35px;
-    font
+    /* text-align: left; */
 }
 
 
@@ -161,11 +161,31 @@ main{
 
 /* footer style */
 img.social-icon {
-    width: 150px;
+    width: 70px;
+}
+.social-link a{
+    margin-right: 25px;
 }
 footer{
     display: flex;
     background-color: #fff8f3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+    
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+}
+.section-form{
+    text-align: left;
 }
